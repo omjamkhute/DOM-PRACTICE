@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+            color: rgb(240, 14, 14);
+        }
+        .big{
+             font-family:cursive;    
+               }
+    </style>
+</head>
+<body>
+    <nav>
+        <p class="paragraph">Welcome boss</p>
+    </nav>
+    <div class="block">
+        <h3>My name is <span id="username">Boss oj</span></h3>
+        <p class="phras">Whats todays profit</p>
+        <pre><code>console.log('oj is here')</code></pre>
+    </div>
+
+    <script>
+        // query selector 
+        //const body = document.querySelector("body");
+     
+        // body.innerHTML = "<h1>Hacked ...</h1>";
+        //  console.log(body.innerHTML);
+
+        //const div = document.querySelector("div");
+       // console.log(div.innerHTML);
+
+      //  const pre = document.querySelector("pre");
+       // alert(pre.innerText);
+
+        // const username = document.querySelector("#username");
+        // let uname = prompt("name pleas", "jon snow");
+        // username.innerHTML = uname;
+
+        // const para = document.querySelector(".paragraph");
+        // let parag = prompt("describe you self");
+        // para.innerText = parag;
+
+        // const phras = document.querySelector(".phras");
+        // let ph = prompt("todays phrase");
+        // phras.innerText = ph;
+
+       
+    //     const ele = document.getElementById("username");
+    //    let usern = prompt("name please ",'modi');
+    //       console.log(ele);
+    //     ele.innerText = usern;
+    //     // ele.classList.add("red","big");
+    //      ele.classList.remove("red");
+    //     console.log(ele.classList);
+    //     ele.style.textDecoration = "underline";
+          
+    // const ele = document.getElementsByClassName('block');
+    // console.log(ele)
+
+    // for(let i =0; i< ele.length; i++){
+    //     ele.item(i).style.background = "green";
+    // }
+
+    let ele = document.querySelector(".paragraph");
+    
+    ele.remove();
+   
+    </script>
+</body>
+</html>
